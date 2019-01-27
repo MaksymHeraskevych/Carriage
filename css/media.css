@@ -1,0 +1,266 @@
+@media only screen and (min-device-width : 760px)
+and (max-device-width : 3180px){ 
+
+  .two-button{
+ display: none; 
+}
+}
+
+@media screen and (max-width: 1860px) {
+    .accordion ul ol .equipment a .hover .info   {
+      font-size: 40px;
+    }
+
+    .feedback{
+      width: 75%;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+     .accordion ul ol .equipment a .hover .info{
+      font-size: 35px;
+    }
+
+    .accordion ul ol .equipment a .block{
+     width: 330px;
+   }
+
+    .info__h1{
+      font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+   .feedback{
+      width: 95%;
+    }
+
+  .name{
+    font-size: 36px;
+    white-space: nowrap;
+    padding: 230px 0px 530px 130px;
+  }
+
+  .name__agro{
+    padding: 280px 0px 480px 130px;
+  }
+
+  .name__light{
+    padding: 90px 140px 450px 0px;
+  }
+  
+  .name__spec{
+    padding: 200px 70px 380px 0px;
+  }
+
+    .name__railway{
+    padding: 200px 70px 380px 0px;
+    }
+    
+    .custom{
+      font-size: 36px;
+    }
+     .accordion ul ol .equipment a .hover .info{
+      font-size: 30px;
+    }
+      li{
+      font-size: 12px;
+    }
+
+    .logo-block {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 57%;
+  }
+
+  .accordion ul:hover ol:hover {
+    width: 25%;
+  } 
+}
+
+@media only screen and (min-device-width : 319px)
+and (max-device-width : 759px){ 
+  .btn{
+ display: none; 
+}
+
+.popup{
+    max-width: 260px;
+}
+
+.btn__submit{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+
+}
+@media screen and (max-width: 810px) {
+  .accordion ul ol .equipment a .hover .info {
+    font-size: 24px;
+}
+  .accordion{
+      height: 441px;
+  }
+
+  .hover{
+    padding-top: 2%;
+  }
+
+  .name__agro{
+    padding: 20px 100px 480px 190px;
+}
+
+  .name__light{
+    padding: 0px 20px 650px 300px;
+  }
+  
+  .name__spec{
+     padding: 30px 60px 590px 300px;
+  }
+
+    .name__railway{
+      padding: 100px 0px 610px 280px;
+    }
+
+  .name__truck{
+    padding: 0px 60px 600px 300px;
+  }
+
+.block-user{
+  padding-top: 30px;
+}
+
+  .accordion ul:hover ol:hover {
+  width: 30%;
+} 
+
+  .row img{
+    width: 30%;
+    height: 30%;
+  }
+
+}
+
+@media screen and (max-width: 735px) {
+
+   .accordion ul ol .equipment a .hover .info{
+      font-size: 20px;
+    }
+
+     .info__h1{
+      font-size: 10px;
+    }
+
+      li{
+      font-size: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px) {
+     .accordion ul ol .equipment a .block{
+     width: 180px;
+   }
+
+   .info__h1 {
+    padding-top: 20px;
+    padding-bottom: 13px;
+  }
+
+@media screen and (max-width: 555px) {
+  .custom{
+    font-size: 28px;
+  }
+
+  .offer{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .feedback{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .block-user{
+      text-align: center;
+      width: 280px;
+      margin: 0 auto;
+    }
+
+    .logo-block{
+      width: 95%;
+      margin: 0 auto;
+      padding-left: 0px;
+    }
+
+    .offer{
+      font-weight: 900;
+    }
+
+    .two-button{
+      position: absolute;
+     margin: auto;
+        left: 0;
+        right: 0;
+      margin-top: 10%;
+      margin-bottom: 3%;
+}
+
+
+}
+@media screen and (max-width: 480px) {
+
+  .accordion {
+    height: auto;
+  }
+
+
+  .accordion ul ol, .accordion ul ol:hover, .accordion ul:hover ol, .accordion ul:hover ol:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+ .accordion ul ol {
+    height: 60px;
+  }
+
+  .accordion ul ol .equipment a {
+    height: 82px;
+    }
+
+    .accordion ul:hover ol:hover a  {
+  height: 320px;
+  }
+
+  .name{
+    padding: 0;
+    padding-left: 42%;
+    bottom: 0;
+    font-size: 40px;
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+
+  .accordion ul ol .equipment a .block {
+    width: 320px;
+  }
+
+}
